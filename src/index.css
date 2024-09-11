@@ -145,7 +145,6 @@
 
 .emojiSpan{
     background-color:rgb(45, 149, 114);
-    width: 30%;
     margin:auto;
     padding: 10px 20px;
     border-radius: 5px;
@@ -158,4 +157,20 @@
     text-align: center;
     color: white;
     
+}
+
+
+@media (max-width: 600px){
+    .App {
+        width: 100%;
+    }
+
+    .emojiSpan h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .emojiSpan{
+       padding: 10px;
+    }
 }
