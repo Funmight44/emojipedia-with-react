@@ -173,4 +173,8 @@
     .emojiSpan{
        padding: 10px;
     }
+
+    .emojiCards{
+        margin: 20px 10px;
+    }
 }
